@@ -1,0 +1,20 @@
+body{
+    background: #FFD545;
+}
+
+.boveda-cerrada {
+    width: 60%;
+    height: 60%;  
+    object-fit: cover;
+}
+
+
+.ebox{
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    width: 1%;
+    height: 40px;
+    padding: 10px;
+    resize: none;
+}

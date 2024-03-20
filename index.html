@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Text Encryptor</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="principal-title">
+            <h1>¡Esconde tu mensaje de los intrusos!</h1>
+        </div>
+        
+    </header>
+    <main>
+
+        <section>
+
+        </section>
+
+
+        <section class="forms">
+            <img class="boveda-cerrada" src="/Images/boveda-cerrada.png" alt="boveda-cerrada.png">
+            <form>
+                <textarea class="ebox" id="encode-box" cols="70" rows="10"></textarea>
+                <p class="warning">Solo letras minúsculas y sin acentos</p>
+                <textarea id="decode-box" cols="70" rows="10"></textarea>
+            </form>
+        </section>
+
+        <section class="button-container-box">
+            <button onclick="encoding()" class="button-container">Encriptar mensaje</button>
+            <button onclick="decoding()" class="button-container">Descifrar mensaje</button>
+        </section>
+         
+
+    </main>
+
+
+
+    <script src="/app.js"></script>
+</body>
+
+<footer>
+    <h2>Andrés Fernández 2024</h2>
+</footer>
+</html>
