@@ -24,18 +24,26 @@
         </section>
 
 
-        <section class="forms">
+        <section class="forms-ebox">
             <img class="boveda-cerrada" src="/Images/boveda-cerrada.png" alt="boveda-cerrada.png">
             <form>
-                <textarea class="ebox" id="encode-box" cols="70" rows="10"></textarea>
+                <textarea class="ebox" id="encode-box" cols="70" rows="10" placeholder="Oculta tu mensaje de los mirones"></textarea>
+                <img class="warning-img" src="/Images/advertencia.png" alt="">
                 <p class="warning">Solo letras minúsculas y sin acentos</p>
-                <textarea id="decode-box" cols="70" rows="10"></textarea>
             </form>
         </section>
 
+        <section class="forms-dbox">
+            <img class="boveda-abierta" src="/Images/boveda-abierta.png" alt="boveda-abierta.png">
+            <form>
+                <textarea class="dbox" id="decode-box" cols="70" rows="10" placeholder="Revela tu mensaje"></textarea>
+            </form>
+        </section>
+
+
         <section class="button-container-box">
-            <button onclick="encoding()" class="button-container">Encriptar mensaje</button>
-            <button onclick="decoding()" class="button-container">Descifrar mensaje</button>
+            <button id="encode-button" onclick="encoding()" class="button-container">Encriptar</button>
+            <button id="decode-button" onclick="decoding()" class="button-container">Descifrar</button>
         </section>
          
 
